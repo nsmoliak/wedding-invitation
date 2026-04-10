@@ -1,69 +1,74 @@
 <template>
   <section class="question" id="rsvp">
-    <div class="question-inside">
-      <h2 class="title-text question-title">Присутствие</h2>
-      <p class="descr-text question-descr">
-        Пожалуйста, подтвердите ваше присутствие на нашем празднике до
-        <strong class="text-dark">1 июня 2026 года</strong>
-        любым удобным для вас способом или заполните форму ниже:
-      </p>
-
-      <form v-if="!submitted" id="questions" @submit.prevent="handleSubmit">
-        <div class="question-string">
-          <label class="question-label">
-            <span>Ваше имя</span>
-          </label>
-          <input
-            v-model="form.name"
-            type="text"
-            placeholder="Имя и фамилия"
-            required
-          />
+    <div class="scallop"></div>
+    <div class="section-dark">
+      <div class="section-dark-inside">
+        <div class="question-inside">
+          <h2 class="title-text question-title">Присутствие</h2>
+          <p class="descr-text question-descr">
+            Пожалуйста, подтвердите ваше присутствие на нашем празднике до
+            <strong>1 июня 2026 года</strong>
+            любым удобным для вас способом.
+          </p>
         </div>
-
-        <div class="question-string">
-          <label class="question-label">Количество гостей</label>
-          <input
-            v-model.number="form.guests"
-            type="number"
-            min="1"
-            max="10"
-            placeholder="1"
-          />
-          <p class="question-text-mini">*Количество должно быть целым числом, не более 10.</p>
-        </div>
-
-        <div class="question-string">
-          <label class="question-label">Пожелания к меню</label>
-          <input
-            v-model="form.menu"
-            type="text"
-            placeholder="Аллергии, предпочтения..."
-          />
-        </div>
-
-        <div class="button-container">
-          <button type="submit" class="rsvp-btn">Подтвердить</button>
-          <button type="button" class="rsvp-btn rsvp-btn-decline" @click="handleDecline">Отклонить</button>
-        </div>
-      </form>
-
-      <div v-else class="rsvp-success">
-        <template v-if="form.attendance === 'yes'">
-          <h3 class="title-text rsvp-success-title">Спасибо, {{ form.name }}!</h3>
-          <p class="descr-text">Мы очень рады, что вы будете с нами в этот день!</p>
-        </template>
-        <template v-else>
-          <h3 class="title-text rsvp-success-title">Жаль, {{ form.name }}!</h3>
-          <p class="descr-text">Мы будем скучать по вам в этот день.</p>
-        </template>
       </div>
+      <!--      <form v-if="!submitted" id="questions" @submit.prevent="handleSubmit">-->
+      <!--        <div class="question-string">-->
+      <!--          <label class="question-label">-->
+      <!--            <span>Ваше имя</span>-->
+      <!--          </label>-->
+      <!--          <input-->
+      <!--            v-model="form.name"-->
+      <!--            type="text"-->
+      <!--            placeholder="Имя и фамилия"-->
+      <!--            required-->
+      <!--          />-->
+      <!--        </div>-->
+
+      <!--        <div class="question-string">-->
+      <!--          <label class="question-label">Количество гостей</label>-->
+      <!--          <input-->
+      <!--            v-model.number="form.guests"-->
+      <!--            type="number"-->
+      <!--            min="1"-->
+      <!--            max="10"-->
+      <!--            placeholder="1"-->
+      <!--          />-->
+      <!--          <p class="question-text-mini">*Количество должно быть целым числом, не более 10.</p>-->
+      <!--        </div>-->
+
+      <!--        <div class="question-string">-->
+      <!--          <label class="question-label">Пожелания к меню</label>-->
+      <!--          <input-->
+      <!--            v-model="form.menu"-->
+      <!--            type="text"-->
+      <!--            placeholder="Аллергии, предпочтения..."-->
+      <!--          />-->
+      <!--        </div>-->
+
+      <!--        <div class="button-container">-->
+      <!--          <button type="submit" class="rsvp-btn">Подтвердить</button>-->
+      <!--          <button type="button" class="rsvp-btn rsvp-btn-decline" @click="handleDecline">Отклонить</button>-->
+      <!--        </div>-->
+      <!--      </form>-->
+
+      <!--      <div v-else class="rsvp-success">-->
+      <!--        <template v-if="form.attendance === 'yes'">-->
+      <!--          <h3 class="title-text rsvp-success-title">Спасибо, {{ form.name }}!</h3>-->
+      <!--          <p class="descr-text">Мы очень рады, что вы будете с нами в этот день!</p>-->
+      <!--        </template>-->
+      <!--        <template v-else>-->
+      <!--          <h3 class="title-text rsvp-success-title">Жаль, {{ form.name }}!</h3>-->
+      <!--          <p class="descr-text">Мы будем скучать по вам в этот день.</p>-->
+      <!--        </template>-->
+      <!--      </div>-->
     </div>
+    <div class="scallop-bottom"></div>
   </section>
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+import {ref, reactive} from 'vue'
 
 const submitted = ref(false)
 

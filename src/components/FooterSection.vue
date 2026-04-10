@@ -6,10 +6,10 @@
         <div class="footer-container">
           <div class="names-footer-block">
             <div class="header-name" style="text-align: left;">
-              <h2 class="welcome-title title-text">Иван и</h2>
+              <h2 class="welcome-title title-text">Даниил и</h2>
             </div>
             <div class="header-name" style="text-align: right;">
-              <h2 class="welcome-title title-text">Мария</h2>
+              <h2 class="welcome-title title-text">Наталья</h2>
             </div>
           </div>
           <div class="footer-img">

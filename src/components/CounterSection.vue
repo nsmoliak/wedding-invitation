@@ -37,10 +37,6 @@
           </div>
         </div>
       </div>
-
-      <div class="frame-red">
-        <img src="/main-foto-01.png" alt="Наша фотография" />
-      </div>
     </div>
   </section>
 </template>
@@ -48,7 +44,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const weddingDate = new Date('2026-09-03T14:00:00')
+const weddingDate = new Date('2026-09-28T14:00:00')
 
 const time = ref({ days: 0, hours: 0, minutes: 0, seconds: 0 })
 

@@ -10,7 +10,7 @@
             Один день в этом году будет для нас особенным и мы хотим провести его в кругу близких и друзей.
             С большим удовольствием приглашаем вас на знаменательный праздник — нашу свадьбу!
           </p>
-          <div class="welcome-date title-text">03 · 09 · 2026</div>
+          <div class="welcome-date title-text">28 · 09 · 2026</div>
         </div>
       </div>
     </div>
@@ -23,19 +23,10 @@
       <div class="place-item">
         <h2 class="place-title title-text">Торжественная регистрация</h2>
         <img class="separator-img" src="/stars.png" alt="" />
-        <p class="descr-text">Дом семейных торжеств</p>
-        <p class="descr-text">пр-т Мира, 24г</p>
-        <p class="place-time text-dark">14:00</p>
-        <a class="rsvp-btn" href="https://yandex.ru/maps/" target="_blank" rel="noopener">Маршрут →</a>
-      </div>
-
-      <div class="place-item place-item--two">
-        <h2 class="place-title title-text">Праздничный ужин</h2>
-        <img class="separator-img" src="/stars.png" alt="" />
-        <p class="descr-text">Ресторан «La famille»</p>
-        <p class="descr-text">Сосновый бор, 40</p>
-        <p class="place-time text-dark">17:00</p>
-        <a class="rsvp-btn" href="https://yandex.ru/maps/" target="_blank" rel="noopener">Маршрут →</a>
+        <p class="descr-text">Event Hall Ольшевский</p>
+        <p class="descr-text">Старая Весь 19А, Гродно</p>
+        <p class="place-time text-dark">16:00</p>
+        <a class="rsvp-btn" href="https://yandex.com/maps/org/event_hall_olshevski/219124670247/?ll=23.711256%2C53.804266&z=16" target="_blank" rel="noopener">Маршрут →</a>
       </div>
     </div>
   </section>

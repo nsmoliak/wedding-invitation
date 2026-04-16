@@ -11,7 +11,7 @@
             <br><br>
             С большим удовольствием приглашаем вас на знаменательный праздник - <br> нашу свадьбу!
           </p>
-          <div class="welcome-date title-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">29 - 09 - 26</div>
+          <div class="welcome-date title-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">29 - 08 - 26</div>
         </div>
         <div class="img-bottom" data-aos="zoom-in" data-aos-once="true">
           <img src="/target.png" loading="lazy" alt="" />

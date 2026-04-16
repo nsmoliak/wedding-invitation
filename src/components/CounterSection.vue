@@ -44,7 +44,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const weddingDate = new Date('2026-09-29T14:00:00')
+const weddingDate = new Date('2026-08-29T14:00:00')
 
 const time = ref({ days: 0, hours: 0, minutes: 0, seconds: 0 })
 

@@ -6,10 +6,38 @@
         <div class="question-inside">
           <h2 class="title-text question-title">Присутствие</h2>
           <p class="descr-text question-descr">
-            Пожалуйста, подтвердите ваше присутствие на нашем празднике до
-            <strong>1 июня 2026 года</strong>
-            любым удобным для вас способом.
+            Пожалуйста, подтвердите ваше присутствие на нашем празднике до 1 августа 2026 года любым удобным для вас способом.
           </p>
+
+          <div class="rsvp-buttons">
+            <div class="rsvp-approves">
+              <span class="rsvp-member">Сторона жениха</span>
+              <div class="rsvp-contacts">
+                <a class="rsvp-phone" href="tel:+375293529638">
+                  <img src="/phone.svg" width="24" height="24" alt="" />
+                  +375 (29) 352-96-38
+                </a>
+              </div>
+              <div class="rsvp-social">
+                <a href="https://t.me/ChernickijD" target="_blank"><img src="/telegram.svg" width="24" height="24" alt="Telegram" /></a>
+                <a href="viber://contact?number=+375293529638&text=Привет! Мы идём на свадьбу!"><img src="/viber.svg" width="24" height="24" alt="Viber" /></a>
+              </div>
+            </div>
+
+            <div class="rsvp-approves">
+              <span class="rsvp-member">Сторона невесты</span>
+              <div class="rsvp-contacts">
+                <a class="rsvp-phone" href="tel:+375336553207">
+                  <img src="/phone.svg" width="24" height="24" alt="" />
+                  +375 (33) 655-32-07
+                </a>
+              </div>
+              <div class="rsvp-social">
+                <a href="https://t.me/natallia_smoliak" target="_blank"><img src="/telegram.svg" width="24" height="24" alt="Telegram" /></a>
+                <a href="viber://contact?number=+375336553207&text=Привет! Мы идём на свадьбу!"><img src="/viber.svg" width="24" height="24" alt="Viber" /></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!--      <form v-if="!submitted" id="questions" @submit.prevent="handleSubmit">-->
@@ -99,19 +127,84 @@ function handleDecline() {
 }
 
 .question-inside {
-  width: 90%;
-  max-width: 800px;
+  width: 100%;
   margin: auto;
-  padding: 70px 5%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   text-align: center;
 }
 
+.details-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 120%;
+  padding-top: 10px;
+}
+
 .question-title {
-  color: var(--accent);
+  color: var(--bg);
+}
+
+.rsvp-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.rsvp-approves {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.rsvp-member {
+  font-family: var(--font-main);
+  font-size: 18px;
+  color: var(--bg);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.rsvp-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.rsvp-phone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--bg);
+  font-size: 18px;
+  font-family: var(--font-main);
+  text-decoration: none;
+}
+
+.rsvp-phone img {
+  filter: brightness(0) invert(1);
+}
+
+.rsvp-social {
+  display: flex;
+  gap: 12px;
+}
+
+.rsvp-social img {
+  filter: brightness(0) invert(1);
+  transition: opacity 0.2s;
+}
+
+.rsvp-social a:hover img {
+  opacity: 0.7;
 }
 
 .question-descr {

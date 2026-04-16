@@ -4,7 +4,8 @@
       <h2 class="title-text dresscode-title">Дресс-код</h2>
 
       <p class="descr-text dresscode-descr">
-        Мы очень старались сделать праздник красивым и будем рады, если в своих нарядах вы поддержите цветовую гамму нашей свадьбы:
+        Мы очень старались сделать праздник красивым и будем рады, если в своих нарядах вы поддержите цветовую гамму
+        нашей свадьбы:
       </p>
 
       <!-- Palette swatches -->
@@ -14,50 +15,23 @@
           :key="color.hex"
           class="dresscode-swatch"
           :style="{ background: color.hex }"
-          :title="color.name"
         ></div>
       </div>
 
       <p class="dresscode-hint">Соблюдение дресс-кода желательно, но не обязательно.</p>
 
-      <!-- Dress code image -->
-      <div class="dresscode-img-wrap">
-        <img src="/dresscode.png" alt="Дресс-код" class="dresscode-img" />
-      </div>
-
-      <div class="dresscode-cards">
-        <div class="dresscode-card">
-          <h3 class="dresscode-card-title text-dark">Девушки</h3>
-          <p class="dresscode-card-text">
-            Для нас главное — ваше присутствие. Но нам будет очень приятно, если вы учтёте наши пожелания при выборе нарядов. Коктейльные и вечерние платья в пастельных тонах. Просим избегать белого цвета.
-          </p>
-        </div>
-        <div class="dresscode-card">
-          <h3 class="dresscode-card-title text-dark">Мужчины</h3>
-          <p class="dresscode-card-text">
-            Для нас главное — ваше присутствие. Но нам будет очень приятно, если вы учтёте наши пожелания при выборе нарядов. Классический костюм или смокинг приветствуется.
-          </p>
-        </div>
-      </div>
-
-      <!-- Details block -->
-<!--      <div class="dresscode-details">-->
-<!--        <p class="descr-text dresscode-details-text">-->
-<!--          <strong class="text-dark">Детали:</strong> Обратите внимание, что формат мероприятия не предполагает детской площадки и аниматоров. Пожалуйста, позаботьтесь о том, чтобы провести этот вечер без детей. Ваши подарки в конвертах помогут осуществить наши мечты.-->
-<!--        </p>-->
-<!--      </div>-->
     </div>
   </section>
 </template>
 
 <script setup>
 const palette = [
-  { hex: '#c8b8a2', name: 'Бежевый' },
-  { hex: '#d4a5a5', name: 'Пыльная роза' },
-  { hex: '#921A21', name: 'Бургундский' },
-  { hex: '#8a9e8d', name: 'Шалфей' },
-  { hex: '#e8e0d0', name: 'Кремовый' },
-  { hex: '#b0a090', name: 'Тауп' },
+  {hex: '#F0C8C8'},
+  {hex: '#C7D5EF'},
+  {hex: '#ADBEA4'},
+  {hex: '#c8b8b0'},
+  {hex: '#5B4633'},
+  {hex: '#060503'},
 ]
 </script>
 
@@ -100,7 +74,7 @@ const palette = [
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dresscode-hint {

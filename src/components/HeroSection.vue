@@ -10,22 +10,49 @@
         <img src="/arrow.svg" alt=""/>
       </div>
     </div>
+
+    <div class="header-block-small-heart" id="music-block" data-aos="fade-in" data-aos-once="true">
+      <audio id="backgroundAudio" loop preload="auto" ref="audio">
+        <source src="/song.mp3" type="audio/mpeg">
+      </audio>
+      <img v-if="playing" src="/music-on.png" alt=""  @click="toggleMusic"/>
+      <img v-else src="/music-off.png" alt=""  @click="toggleMusic"/>
+       <p id="music-text" class="header-text-small">{{ playing ? 'Выключить музыку' : 'Включить музыку' }}</p>
+    </div>
   </section>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+
+const audio = ref(null)
+const playing = ref(false)
+
+function toggleMusic() {
+  if (playing.value) {
+    audio.value.pause()
+    playing.value = false
+  } else {
+    audio.value.play()
+    playing.value = true
+  }
+}
+</script>
 
 <style scoped>
 .header {
   min-height: 100vh;
   background: var(--bg);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .header-blocks {
-  height: 100vh;
-  width: 100vw;
+  flex: 1;
+  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,4 +98,40 @@
   display: block;
   height: auto;
 }
+
+.header-block-small-heart {
+  text-align: center;
+  font-size: 78.8px;
+}
+
+.header-block-small-heart img {
+  width: 14%;
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.header-block-small-heart img:hover {
+  opacity: 0.7;
+}
+
+.header-text-small {
+  font-family: var(--font-main),sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--text);
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+
+
+  .header-text-small {
+    font-size: 20px;
+  }
+
+
+}
+
 </style>

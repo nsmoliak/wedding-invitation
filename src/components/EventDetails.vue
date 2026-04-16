@@ -4,13 +4,17 @@
     <div class="scallop"></div>
     <div class="section-dark">
       <div class="section-dark-inside">
-        <div class="info-invitation">
+        <div class="info-invitation" data-aos="fade-up" data-aos-once="true">
           <h2 class="welcome-title title-text">Мы женимся!</h2>
-          <p class="descr-text">
+          <p class="descr-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
             Один день в этом году будет для нас особенным и мы хотим провести его в кругу близких и друзей.
-            С большим удовольствием приглашаем вас на знаменательный праздник — нашу свадьбу!
+            <br><br>
+            С большим удовольствием приглашаем вас на знаменательный праздник - <br> нашу свадьбу!
           </p>
-          <div class="welcome-date title-text">28 · 09 · 2026</div>
+          <div class="welcome-date title-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">29 - 09 - 26</div>
+        </div>
+        <div class="img-bottom" data-aos="zoom-in" data-aos-once="true">
+          <img src="/target.png" loading="lazy" alt="" />
         </div>
       </div>
     </div>
@@ -21,13 +25,24 @@
   <section class="place" id="place">
     <div class="place-inside">
       <div class="place-item">
-        <h2 class="place-title title-text">Торжественная регистрация</h2>
-        <img class="separator-img" src="/stars.png" alt="" />
-        <p class="descr-text">Event Hall Ольшевский</p>
-        <p class="descr-text">Старая Весь 19А, Гродно</p>
-        <p class="place-time text-dark">16:00</p>
-        <a class="rsvp-btn" href="https://yandex.com/maps/org/event_hall_olshevski/219124670247/?ll=23.711256%2C53.804266&z=16" target="_blank" rel="noopener">Маршрут →</a>
+        <h2 class="place-title title-text">Точка сбора</h2>
+        <p class="descr-text">Для вашего удобства будет организован трансфер</p>
+        <p class="descr-text">ул. Горновых 17, г. Гродно </p>
+        <p class="place-time text-dark">15:30</p>
+        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSq0jb" target="_blank" rel="noopener">Маршрут</a>
       </div>
+      <div class="place-item">
+        <h2 class="place-title title-text">Торжественная регистрация</h2>
+        <p class="descr-text">Банкетный Зал "Event Hall Olshevski"</p>
+        <p class="descr-text">Старая Весь 19А, д. Василевичи</p>
+        <p class="place-time text-dark">16:00</p>
+        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSqT2m" target="_blank" rel="noopener">Маршрут</a>
+      </div>
+
+      <div class="foto-bottom" data-aos="zoom-in" data-aos-once="true">
+        <img src="/foto.png" loading="lazy" alt="" />
+      </div>
+
     </div>
   </section>
 </template>
@@ -36,7 +51,7 @@
 .info-date {
   position: relative;
   z-index: 0;
-  margin-top: -4px;
+  margin-top: 30px;
 }
 
 .info-invitation {
@@ -59,12 +74,32 @@
   color: var(--bg);
 }
 
+.img-bottom {
+  max-width: 18%;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  img {
+    display: block;
+    height: auto;
+  }
+}
+
+.foto-bottom {
+  max-width: 22%;
+  margin: 0 auto;
+  padding-top: 20px;
+
+  img {
+    display: block;
+    height: auto;
+  }
+}
 .place {
   position: relative;
   z-index: 2;
   background: var(--bg);
   margin-top: -4px;
-  padding-top: 60px;
 }
 
 .place-inside {
@@ -133,3 +168,5 @@
   .place-title { font-size: 36px; }
 }
 </style>
+<script setup lang="ts">
+</script>

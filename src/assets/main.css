@@ -50,6 +50,7 @@ img {
 .title-text {
     font-family: var(--font-beauty), sans-serif;
     font-size: 64px;
+    font-weight: 500;
     line-height: 1.2;
     color: var(--accent);
 }
@@ -71,16 +72,22 @@ img {
 
 .scallop {
     height: 50px;
+    background: radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px);
     background-size: 50px 50px;
-    background: var(--accent) radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px) repeat-x center top;
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-color: var(--accent);
     margin-top: -4px;
     margin-bottom: -2px;
 }
 
 .scallop-bottom {
     height: 50px;
+    background: radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px);
     background-size: 50px 50px;
-    background: var(--accent) radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px) repeat-x center top;
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-color: var(--accent);
     transform: rotate(180deg);
     margin-top: -2px;
 }
@@ -94,6 +101,7 @@ img {
 }
 
 .section-dark .descr-text {
+    width: 80%;
     color: var(--bg);
 }
 

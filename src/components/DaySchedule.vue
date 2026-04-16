@@ -17,9 +17,10 @@
                 <div class="timetable-name">{{ item.name }}</div>
                 <div class="timetable-descr">{{ item.descr }}</div>
               </div>
-              <div class="timetable-block-img">
+              <div class="timetable-block-img" v-if="i < schedule.length - 1">
                 <img src="/arrow-plan.png" alt="" />
               </div>
+              <div class="timetable-block-img" v-else></div>
               <div class="timetable-block-empty"></div>
             </div>
           </div>
@@ -32,11 +33,10 @@
 
 <script setup>
 const schedule = [
-  { time: '16:00', name: 'Фуршет', descr: 'Закуски и ожидание праздника' },
-  { time: '16:30', name: 'Торжественная церемония', descr: 'Не исключено, что вам потребуются платочки для этого трогательного момента' },
+  { time: '16:00', name: 'Сбор гостей', descr: 'Бокал шампанского и закуски, пока праздник набирает силу' },
+  { time: '16:30', name: 'Церемония', descr: 'Не исключено, что вам потребуются платочки для этого трогательного момента' },
   { time: '17:30', name: 'Праздничный ужин', descr: 'Вкусная еда, тёплые тосты и много любви за одним столом' },
-  { time: '20:00', name: 'Танцевальная программа', descr: 'Время зажечь танцпол и создать незабываемые воспоминания' },
-  { time: '23:00', name: 'Торт', descr: '' },
+  { time: '21:00', name: 'Свадебный торт', descr: 'Время загадать желание и отведать главный десерт вечера' },
   { time: '00:00', name: 'Окончание праздника', descr: 'Даже такая вечеринка может закончиться, но мы придумаем ещё поводы собраться вместе' },
 ]
 </script>

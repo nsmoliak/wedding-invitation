@@ -1,166 +1,157 @@
 @font-face {
-  font-family: 'Madelyn';
-  src: url('/fonts/MADELYN.OTF') format('opentype');
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'Madelyn';
+    src: url('/fonts/Madelyn.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
 }
 
 *, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-  --bg: #EFECE0;
-  --accent: #921A21;
-  --accent-light: #b7585d;
-  --text: #615D5A;
-  --font-main: 'EB Garamond', serif;
-  --font-beauty: 'Madelyn', 'EB Garamond', serif;
+    --bg: #EFECE0;
+    --accent: #921A21;
+    --accent-light: #b7585d;
+    --text: #615D5A;
+    --font-main: 'EB Garamond', serif;
+    --font-beauty: 'Madelyn', 'Caveat', 'EB Garamond', serif;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: var(--font-main);
-  font-size: 24px;
-  line-height: 1.2;
-  background-color: var(--bg);
-  color: var(--text);
-  -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+    font-family: var(--font-main), sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    background-color: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 p {
-  margin: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
-/* Typography */
 .title-text {
-  font-family: var(--font-beauty);
-  font-size: 64px;
-  line-height: 1.2;
-  color: var(--accent);
+    font-family: var(--font-beauty), sans-serif;
+    font-size: 64px;
+    line-height: 1.2;
+    color: var(--accent);
 }
 
 .descr-text {
-  font-family: var(--font-main);
-  font-size: 24px;
-  line-height: 1.2;
-  color: var(--text);
+    font-family: var(--font-main), sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--text);
 }
 
 .text-light {
-  color: var(--bg);
+    color: var(--bg);
 }
 
 .text-dark {
-  color: var(--accent);
+    color: var(--accent);
 }
 
-/* Scallop border — top (bg notches into accent) */
 .scallop {
-  height: 50px;
-  background: radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px);
-  background-size: 50px 50px;
-  background-repeat: repeat-x;
-  background-position: center top;
-  background-color: var(--accent);
-  margin-top: -4px;
-  margin-bottom: -2px;
+    height: 50px;
+    background-size: 50px 50px;
+    background: var(--accent) radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px) repeat-x center top;
+    margin-top: -4px;
+    margin-bottom: -2px;
 }
 
-/* Scallop border — bottom (rotated) */
 .scallop-bottom {
-  height: 50px;
-  background: radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px);
-  background-size: 50px 50px;
-  background-repeat: repeat-x;
-  background-position: center top;
-  background-color: var(--accent);
-  transform: rotate(180deg);
-  margin-top: -2px;
+    height: 50px;
+    background-size: 50px 50px;
+    background: var(--accent) radial-gradient(circle at 25px 50px, transparent 24px, var(--bg) 25px) repeat-x center top;
+    transform: rotate(180deg);
+    margin-top: -2px;
 }
 
-/* Dark (burgundy) section */
 .section-dark {
-  background: var(--accent);
-  color: var(--bg);
-  margin-top: -2px;
-  position: relative;
-  z-index: 2;
+    background: var(--accent);
+    color: var(--bg);
+    margin-top: -2px;
+    position: relative;
+    z-index: 2;
 }
 
 .section-dark .descr-text {
-  color: var(--bg);
+    color: var(--bg);
 }
 
 .section-dark .title-text {
-  color: var(--bg);
+    color: var(--bg);
 }
 
 .section-dark-inside {
-  width: 90%;
-  max-width: 800px;
-  margin: auto;
-  padding: 70px 0;
-  text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 70px 0;
+    text-align: center;
 }
 
-/* RSVP button */
 .rsvp-btn {
-  background: none;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-family: var(--font-main);
-  padding: 15px 20px 10px;
-  min-width: 200px;
-  margin: 10px 0;
-  border: 1px dashed var(--accent);
-  color: var(--accent);
-  border-radius: 20px;
-  line-height: 1;
-  cursor: pointer;
-  transition: opacity 0.2s;
+    background: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: var(--font-main), sans-serif;
+    padding: 15px 20px 10px;
+    min-width: 200px;
+    margin: 10px 0;
+    border: 1px dashed var(--accent);
+    color: var(--accent);
+    border-radius: 20px;
+    line-height: 1;
+    cursor: pointer;
+    transition: opacity 0.2s;
 }
 
 .rsvp-btn:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .rsvp-btn-light {
-  border-color: var(--bg);
-  color: var(--bg);
+    border-color: var(--bg);
+    color: var(--bg);
 }
 
-/* Separator image (small ornament) */
 .separator-image {
-  margin: auto;
-  width: 10%;
-  max-width: 30px;
-  padding: 20px 0;
+    margin: auto;
+    width: 10%;
+    max-width: 30px;
+    padding: 20px 0;
 }
 
 @media (max-width: 800px) {
-  body {
-    font-size: 20px;
-  }
-  .title-text {
-    font-size: 54px;
-  }
-  .descr-text {
-    font-size: 20px;
-  }
+    body {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .title-text {
+        font-size: 54px;
+    }
+
+    .descr-text {
+        font-size: 20px;
+    }
 }

@@ -47,6 +47,7 @@
   color: var(--bg);
   font-size: 64px;
   line-height: 1;
+  font-weight: 500;
 }
 
 .header-name {

@@ -4,15 +4,15 @@
     <div class="section-dark">
       <div class="section-dark-inside">
         <div class="details-info">
-          <h2 class="title-text details-title" data-aos="fade-up" data-aos-once="true">Детали</h2>
-          <p class="descr-text" data-aos="fade-right" data-aos-once="true" data-aos-delay="200">
+          <h2 class="title-text details-title" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">Детали</h2>
+          <p class="descr-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
             Если вы ищете альтернативу традиционному букету, мы будем рады бутылочке вашего любимого напитка. Ваш
             подарок точно не завянет, а со временем станет только лучше.
           </p>
-          <div class="details-block-img" data-aos="fade-left" data-aos-once="true" data-aos-delay="200">
+          <div class="details-block-img" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
             <img src="/stars.png" alt=""/>
           </div>
-          <p class="descr-text" data-aos="fade-right" data-aos-once="true" data-aos-delay="200">
+          <p class="descr-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
             Пожалуйста, обратите внимание на время сбора гостей и заранее сообщите нам, если у вас возникнут вопросы.
           </p>
         </div>

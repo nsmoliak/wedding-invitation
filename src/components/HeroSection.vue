@@ -1,7 +1,7 @@
 <template>
   <section class="header" id="home">
     <div class="header-blocks">
-      <div class="header-block text-dark" data-aos="fade-down" >Наконец-то!</div>
+      <div class="header-block text-dark" data-aos="fade-down">Наконец-то!</div>
       <div class="header-block" data-aos="zoom-in" data-aos-once="true">
         <p class="header-sub"> так сказали наши близкие и родные, когда узнали, эту</p>
         <p class="header-big text-dark">новость</p>

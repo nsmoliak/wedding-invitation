@@ -1,14 +1,14 @@
 <template>
   <section class="dress-code">
     <div class="dress-code-inside">
-      <h2 class="title-text dress-code-title" data-aos="fade-down" data-aos-once="true">Дресс-код</h2>
+      <h2 class="title-text dress-code-title" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">Дресс-код</h2>
 
-      <p class="descr-text dress-code-descr" data-aos="fade-right" data-aos-once="true">
+      <p class="descr-text dress-code-descr" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
         Мы очень старались сделать праздник красивым и будем рады, если в своих нарядах вы поддержите цветовую гамму
         нашей свадьбы:
       </p>
 
-      <div class="dress-code-colors" data-aos="fade-left" data-aos-once="true">
+      <div class="dress-code-colors" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
         <div
           v-for="color in palette"
           :key="color.hex"
@@ -17,7 +17,9 @@
         ></div>
       </div>
 
-      <p class="dress-code-hint" data-aos="fade-right" data-aos-once="true">Соблюдение дресс-кода желательно, но не обязательно.</p>
+      <p class="dress-code-hint" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+        Соблюдение дресс-кода желательно, но не обязательно.
+      </p>
     </div>
   </section>
 </template>

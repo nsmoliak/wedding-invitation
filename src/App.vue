@@ -4,7 +4,7 @@
     <EventDetails />
     <DaySchedule />
     <DressCode />
-    <RsvpForm />
+    <RsvpSection />
     <TransferSection />
     <DetailsSection />
     <CounterSection />
@@ -17,7 +17,7 @@ import HeroSection from './components/HeroSection.vue'
 import EventDetails from './components/EventDetails.vue'
 import DaySchedule from './components/DaySchedule.vue'
 import DressCode from './components/DressCode.vue'
-import RsvpForm from './components/RsvpForm.vue'
+import RsvpSection from './components/RsvpSection.vue'
 import CounterSection from './components/CounterSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import DetailsSection from "./components/DetailsSection.vue";

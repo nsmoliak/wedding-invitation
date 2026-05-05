@@ -4,7 +4,7 @@
     <div class="section-dark">
       <div class="section-dark-inside">
         <div class="plan-place">
-          <h2 class="title-text timetable-title" data-aos="fade-down" data-aos-once="true">План дня</h2>
+          <h2 class="title-text timetable-title" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">План дня</h2>
           <div class="timetable-block">
             <div
               v-for="(item, i) in schedule"
@@ -13,6 +13,7 @@
               :class="{ 'timetable-block-stroke--right': i % 2 === 1 }"
               :data-aos="i % 2 === 1 ? 'fade-left' : 'fade-right'"
               data-aos-once="true"
+              data-aos-delay="200"
             >
               <div class="timetable-text">
                 <div class="timetable-time">{{ item.time }}</div>

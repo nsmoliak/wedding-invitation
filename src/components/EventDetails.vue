@@ -31,7 +31,6 @@
           <p class="descr-text" >Банкетный Зал "Event Hall Olshevski"</p>
           <p class="descr-text">Старая Весь 19А, д. Василевичи</p>
         </div>
-        <p class="place-time text-dark" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">16:00</p>
         <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSqT2m" target="_blank" rel="noopener"
            data-aos="fade-up" data-aos-once="true" data-aos-delay="200">Маршрут</a>
       </div>

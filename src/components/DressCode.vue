@@ -24,58 +24,15 @@
 
 <script setup>
 const palette = [
-  // {hex: '#F0C8C8'},
-  // {hex: '#C7D5EF'},
-  // {hex: '#ADBEA4'},
-  // {hex: '#c8b8b0'},
-
-  // {hex: '#EED6C4'},
-  // {hex: '#DCAE96'},
-  // {hex: '#EAD8D1'},
   {hex: '#E7D2CC'},
   {hex: '#A9BCC3'},
   {hex: '#B2B9A1'},
   {hex: '#BDB2BD'},
-
-  // {hex: '#D9C5B2'},
-
-
-  // {hex: '#F6E1D3'},
-
-
-
-
-
-
-
   {hex: '#DECDC3'},
-
   {hex: '#D4BDB5'},
-  // {hex: '#D5B9B2'},
-  // {hex: '#C8A59E'},
-  // {hex: '#B48A81'},
   {hex: '#8E6D67'},
   {hex: '#060503'},
 ]
-
-// #000000
-
-
-
-
-// #DCAE96
-// ГолубойMuted Sky
-// #A9BCC3
-// ЗеленыйSage Leaf
-// #B2B9A1
-// ЛавандовыйSoft Heather
-// #BDB2BD
-// ПерсиковыйPale Apricot
-// #EED6C4
-// БежевыйDesert Sand
-// #D9C5B2
-// МолочныйOff White
-// #FAF9F6
 </script>
 
 <style scoped>

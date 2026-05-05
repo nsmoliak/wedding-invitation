@@ -63,4 +63,8 @@
 .footer-img img {
   width: 100%;
 }
+
+.section-dark {
+  box-shadow: 0 100px 0 0 var(--accent);
+}
 </style>

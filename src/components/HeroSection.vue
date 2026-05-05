@@ -42,7 +42,7 @@ function toggleMusic() {
 <style scoped>
 .header {
   min-height: 100vh;
-  background: var(--bg);
+  background-color: var(--bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,13 +125,9 @@ function toggleMusic() {
 
 
 @media (max-width: 800px) {
-
-
   .header-text-small {
     font-size: 20px;
   }
-
-
 }
 
 </style>

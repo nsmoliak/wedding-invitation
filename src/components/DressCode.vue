@@ -26,13 +26,13 @@
 
 <script setup>
 const palette = [
+  {hex: '#F6E1D3'},
   {hex: '#E7D2CC'},
-  {hex: '#A9BCC3'},
-  {hex: '#B2B9A1'},
-  {hex: '#BDB2BD'},
-  {hex: '#DECDC3'},
-  {hex: '#D4BDB5'},
+  {hex: '#D5B9B2'},
+  {hex: '#C8A59E'},
+  {hex: '#B48A81'},
   {hex: '#8E6D67'},
+  {hex: '#5B4633'},
   {hex: '#060503'},
 ]
 </script>

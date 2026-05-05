@@ -5,6 +5,8 @@
     <DaySchedule />
     <DressCode />
     <RsvpForm />
+    <TransferSection />
+    <DetailsSection />
     <CounterSection />
     <FooterSection />
   </div>
@@ -18,6 +20,8 @@ import DressCode from './components/DressCode.vue'
 import RsvpForm from './components/RsvpForm.vue'
 import CounterSection from './components/CounterSection.vue'
 import FooterSection from './components/FooterSection.vue'
+import DetailsSection from "./components/DetailsSection.vue";
+import TransferSection from "./components/TransferSection.vue";
 </script>
 
 <style>

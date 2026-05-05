@@ -154,20 +154,6 @@ onUnmounted(() => clearInterval(timer))
   color: var(--text);
 }
 
-.frame-red {
-  border-radius: 30px;
-  background: var(--accent);
-  padding: 20px;
-  margin: 50px auto 30px;
-  width: 90%;
-  max-width: 400px;
-}
-
-.frame-red img {
-  border-radius: 20px;
-  width: 100%;
-}
-
 @media (max-width: 500px) {
   .timer-number {
     height: 70px;

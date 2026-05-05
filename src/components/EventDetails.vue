@@ -25,14 +25,7 @@
   <section class="place" id="place">
     <div class="place-inside">
       <div class="place-item">
-        <h2 class="place-title title-text">Точка сбора</h2>
-        <p class="descr-text">Для вашего удобства будет организован трансфер</p>
-        <p class="descr-text">ул. Горновых 17, г. Гродно </p>
-        <p class="place-time text-dark">15:30</p>
-        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSq0jb" target="_blank" rel="noopener">Маршрут</a>
-      </div>
-      <div class="place-item">
-        <h2 class="place-title title-text">Торжественная регистрация</h2>
+        <h2 class="place-title title-text">Ждем вас</h2>
         <p class="descr-text">Банкетный Зал "Event Hall Olshevski"</p>
         <p class="descr-text">Старая Весь 19А, д. Василевичи</p>
         <p class="place-time text-dark">16:00</p>

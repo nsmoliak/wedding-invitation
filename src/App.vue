@@ -28,5 +28,6 @@ import TransferSection from "./components/TransferSection.vue";
 #promise {
   min-height: 100vh;
   overflow-x: hidden;
+  background-color: var(--accent);
 }
 </style>

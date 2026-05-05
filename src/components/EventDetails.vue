@@ -6,14 +6,16 @@
       <div class="section-dark-inside">
         <div class="info-invitation" data-aos="fade-up" data-aos-once="true">
           <h2 class="welcome-title title-text">Мы женимся!</h2>
-          <p class="descr-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+          <p class="descr-text" data-aos="fade-right" data-aos-once="true" data-aos-delay="200">
             Один день в этом году будет для нас особенным и мы хотим провести его в кругу близких и друзей.
             <br><br>
+          </p>
+          <p class="descr-text" data-aos="fade-left" data-aos-once="true" data-aos-delay="200">
             С большим удовольствием приглашаем вас на знаменательный праздник - <br> нашу свадьбу!
           </p>
-          <div class="welcome-date title-text" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">29 - 08 - 26</div>
+          <div class="welcome-date title-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">29 - 08 - 26</div>
         </div>
-        <div class="img-bottom" data-aos="zoom-in" data-aos-once="true">
+        <div class="img-bottom" data-aos="fade-right" data-aos-once="true">
           <img src="/target.png" loading="lazy" alt="" />
         </div>
       </div>
@@ -21,18 +23,20 @@
     <div class="scallop-bottom"></div>
   </section>
 
-  <!-- Light place block -->
   <section class="place" id="place">
     <div class="place-inside">
       <div class="place-item">
-        <h2 class="place-title title-text">Ждем вас</h2>
-        <p class="descr-text">Банкетный Зал "Event Hall Olshevski"</p>
-        <p class="descr-text">Старая Весь 19А, д. Василевичи</p>
-        <p class="place-time text-dark">16:00</p>
-        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSqT2m" target="_blank" rel="noopener">Маршрут</a>
+        <h2 class="place-title title-text" data-aos="fade-up" data-aos-once="true">Ждем вас</h2>
+        <div data-aos="fade-left" data-aos-once="true" data-aos-delay="200">
+          <p class="descr-text" >Банкетный Зал "Event Hall Olshevski"</p>
+          <p class="descr-text">Старая Весь 19А, д. Василевичи</p>
+        </div>
+        <p class="place-time text-dark" data-aos="fade-right" data-aos-once="true" data-aos-delay="200">16:00</p>
+        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSqT2m" target="_blank" rel="noopener"
+           data-aos="fade-left" data-aos-once="true" data-aos-delay="200">Маршрут</a>
       </div>
 
-      <div class="foto-bottom" data-aos="zoom-in" data-aos-once="true">
+      <div class="foto-bottom" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
         <img src="/foto.png" loading="lazy" alt="" />
       </div>
 

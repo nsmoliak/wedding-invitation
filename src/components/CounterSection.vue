@@ -1,9 +1,9 @@
 <template>
   <section class="counter" id="counter">
     <div class="counter-inside">
-      <p class="timer-title title-text">Увидимся через:</p>
+      <p class="timer-title title-text" data-aos="fade-up" data-aos-once="true">Увидимся через:</p>
 
-      <div id="clockdiv" class="timer-blocks">
+      <div id="clockdiv" class="timer-blocks" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
         <div class="timer-block-info">
           <div class="timer-block-inside">
             <div class="timer-number">

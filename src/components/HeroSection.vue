@@ -1,17 +1,17 @@
 <template>
   <section class="header" id="home">
     <div class="header-blocks">
-      <div class="header-block text-dark" data-aos="fade-down" data-aos-once="true">Наконец-то!</div>
-      <div class="header-block">
-        <p class="header-sub">так сказали наши близкие и родные, когда узнали, эту</p>
+      <div class="header-block text-dark" data-aos="fade-down" >Наконец-то!</div>
+      <div class="header-block" data-aos="zoom-in" data-aos-once="true">
+        <p class="header-sub"> так сказали наши близкие и родные, когда узнали, эту</p>
         <p class="header-big text-dark">новость</p>
       </div>
-      <div class="header-block-img">
+      <div class="header-block-img" data-aos="fade-up" data-aos-delay="200">
         <img src="/arrow.svg" alt=""/>
       </div>
     </div>
 
-    <div class="header-block-small-heart" id="music-block" data-aos="fade-in" data-aos-once="true">
+    <div class="header-block-small-heart" id="music-block" data-aos="zoom-in" data-aos-once="true">
       <audio id="backgroundAudio" loop preload="auto" ref="audio">
         <source src="/song.mp3" type="audio/mpeg">
       </audio>

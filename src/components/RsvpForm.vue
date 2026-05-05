@@ -4,13 +4,13 @@
     <div class="section-dark">
       <div class="section-dark-inside">
         <div class="question-inside">
-          <h2 class="title-text question-title">Присутствие</h2>
-          <p class="descr-text">
+          <h2 class="title-text question-title" data-aos="fade-up" data-aos-once="true">Присутствие</h2>
+          <p class="descr-text" data-aos="fade-up" data-aos-once="true">
             Пожалуйста, подтвердите ваше присутствие на нашем празднике до 1 августа 2026 года любым удобным для вас способом.
           </p>
 
           <div class="rsvp-buttons">
-            <div class="rsvp-approves">
+            <div class="rsvp-approves" data-aos="fade-right" data-aos-once="true">
               <span class="rsvp-member">Сторона жениха</span>
               <div class="rsvp-contacts">
                 <a class="rsvp-phone" href="tel:+375293529638">
@@ -24,7 +24,7 @@
               </div>
             </div>
 
-            <div class="rsvp-approves">
+            <div class="rsvp-approves" data-aos="fade-left" data-aos-once="true">
               <span class="rsvp-member">Сторона невесты</span>
               <div class="rsvp-contacts">
                 <a class="rsvp-phone" href="tel:+375336553207">

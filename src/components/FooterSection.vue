@@ -5,14 +5,14 @@
       <div class="section-dark-inside">
         <div class="footer-container">
           <div class="names-footer-block">
-            <div class="header-name" style="text-align: left;">
-              <h2 class="welcome-title title-text">Даниил и</h2>
+            <div class="header-name" data-aos="fade-right" data-aos-once="true" data-aos-delay="200" style="text-align: left;">
+              <h2 class="welcome-title title-text" >Даниил и</h2>
             </div>
-            <div class="header-name" style="text-align: right;">
+            <div class="header-name" data-aos="fade-left" data-aos-once="true" data-aos-delay="200" style="text-align: right;">
               <h2 class="welcome-title title-text">Наталья</h2>
             </div>
           </div>
-          <div class="footer-img">
+          <div class="footer-img" data-aos="fade-right" data-aos-once="true" data-aos-delay="200">
             <img src="/car.png" alt="" />
           </div>
         </div>
@@ -68,3 +68,5 @@
   box-shadow: 0 100px 0 0 var(--accent);
 }
 </style>
+<script setup lang="ts">
+</script>

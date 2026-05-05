@@ -1,29 +1,16 @@
 <template>
-  <!-- Dark invitation block -->
-
-
-  <!-- Light transfert block -->
   <section class="transfert" id="transfert">
     <div class="transfert-inside">
       <div class="transfert-item">
-        <h2 class="transfert-title title-text">Трансфер</h2>
-        <p class="descr-text">Для вашего удобства будет организован трансфер</p>
-        <p class="descr-text">ул. Горновых 17, г. Гродно </p>
-        <p class="transfert-time text-dark">15:30</p>
-        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSq0jb" target="_blank" rel="noopener">Маршрут</a>
+        <h2 class="transfert-title title-text" data-aos="fade-up" data-aos-once="true">Трансфер</h2>
+        <div data-aos="fade-left" data-aos-once="true" data-aos-delay="200">
+          <p class="descr-text">Для вашего удобства будет организован трансфер</p>
+          <p class="descr-text">ул. Горновых 17, г. Гродно </p>
+        </div>
+        <p class="transfert-time text-dark" data-aos="fade-right" data-aos-once="true" data-aos-delay="200">15:30</p>
+        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSq0jb" target="_blank" rel="noopener"
+           data-aos="fade-left" data-aos-once="true" data-aos-delay="200">Маршрут</a>
       </div>
-<!--      <div class="transfert-item">-->
-<!--        <h2 class="transfert-title title-text">Ждем вас</h2>-->
-<!--        <p class="descr-text">Банкетный Зал "Event Hall Olshevski"</p>-->
-<!--        <p class="descr-text">Старая Весь 19А, д. Василевичи</p>-->
-<!--        <p class="transfert-time text-dark">16:00</p>-->
-<!--        <a class="rsvp-btn" href="https://yandex.com/maps/-/CPvSqT2m" target="_blank" rel="noopener">Маршрут</a>-->
-<!--      </div>-->
-
-<!--      <div class="foto-bottom" data-aos="zoom-in" data-aos-once="true">-->
-<!--        <img src="/foto.png" loading="lazy" alt=""/>-->
-<!--      </div>-->
-
     </div>
   </section>
 </template>
